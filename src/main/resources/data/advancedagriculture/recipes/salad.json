@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "advancedagriculture:salad"
+    }
+  ],
+  "result": {
+    "item": "advancedagriculture:salad_seeds",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "advancedagriculture:palm_checked",
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "advancedagriculture:palm_checked"
+      }
+    ]
+  }
+}

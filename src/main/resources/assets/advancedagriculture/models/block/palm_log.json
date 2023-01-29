@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "advancedagriculture:block/palm/palm_log_top",
+    "side": "advancedagriculture:block/palm/palm_log"
+  }
+}

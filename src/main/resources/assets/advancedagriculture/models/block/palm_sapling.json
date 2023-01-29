@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "advancedagriculture:block/palm/palm_sapling"
+  },
+  "render_type": "cutout"
+}

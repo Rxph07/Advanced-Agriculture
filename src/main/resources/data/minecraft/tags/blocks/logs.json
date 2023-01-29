@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "advancedagriculture:palm_log",
+    "advancedagriculture:palm_wood",
+    "advancedagriculture:stripped_palm_log",
+    "advancedagriculture:stripped_palm_wood"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "advancedagriculture:block/handmill"
+		},
+		"facing=south": {
+			"model": "advancedagriculture:block/handmill",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "advancedagriculture:block/handmill",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "advancedagriculture:block/handmill",
+			"y": 90
+		}
+	}
+}

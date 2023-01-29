@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "age=0": { "model": "advancedagriculture:block/salad_stage0" },
+    "age=1": { "model": "advancedagriculture:block/salad_stage1" },
+    "age=2": { "model": "advancedagriculture:block/salad_stage2" },
+    "age=3": { "model": "advancedagriculture:block/salad_stage3" },
+    "age=4": { "model": "advancedagriculture:block/salad_stage4" },
+    "age=5": { "model": "advancedagriculture:block/salad_stage5" },
+    "age=6": { "model": "advancedagriculture:block/salad_stage6" }
+  }
+}

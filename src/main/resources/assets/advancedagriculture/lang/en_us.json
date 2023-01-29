@@ -1,0 +1,28 @@
+{
+  "item.advancedagriculture.baguette": "Baguette",
+  "item.advancedagriculture.cheese_burger": "Cheese Burger",
+  "item.advancedagriculture.croissant": "Croissant",
+  "item.advancedagriculture.hamburger": "Hamburger",
+  "item.advancedagriculture.jam_toast": "Jam Toast",
+  "item.advancedagriculture.nutella_toast": "Nutella Toast",
+  "item.advancedagriculture.peanut_butter_toast": "Peanut Butter Toast",
+  "item.advancedagriculture.pizza": "Pizza",
+  "item.advancedagriculture.pretzl": "Pretzl",
+  "item.advancedagriculture.sandwich": "Sandwich",
+  "item.advancedagriculture.toast": "Toast",
+  "item.advancedagriculture.flour": "Flour",
+  "item.advancedagriculture.nutella": "Nutella",
+  "item.advancedagriculture.salad": "Salad",
+  "item.advancedagriculture.salad_seeds": "Salad Seeds",
+  "item.advancedagriculture.dough": "Dough",
+
+  "block.advancedagriculture.palm_log": "Palm Log",
+  "block.advancedagriculture.palm_planks": "Palm Planks",
+  "block.advancedagriculture.palm_wood": "Palm Wood",
+  "block.advancedagriculture.stripped_palm_log": "Stripped Palm Log",
+  "block.advancedagriculture.stripped_palm_wood": "Stripped Palm Wood",
+  "block.advancedagriculture.palm_leaves": "Palm Leaves",
+  "block.advancedagriculture.palm_sapling": "Palm Sapling",
+
+  "block.advancedagriculture.handmill": "Handmill"
+}
