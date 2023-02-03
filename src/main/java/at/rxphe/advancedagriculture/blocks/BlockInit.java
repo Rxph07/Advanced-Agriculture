@@ -4,6 +4,7 @@ import at.rxphe.advancedagriculture.Advancedagriculture;
 import at.rxphe.advancedagriculture.blocks.custom.HandmillBlock;
 import at.rxphe.advancedagriculture.blocks.custom.ModFlammableRotatedPillarBlock;
 import at.rxphe.advancedagriculture.blocks.custom.SaladCropBlock;
+import at.rxphe.advancedagriculture.blocks.custom.Saplings;
 import at.rxphe.advancedagriculture.items.ItemInit;
 import at.rxphe.advancedagriculture.utils.ModCreativeModeTab;
 import at.rxphe.advancedagriculture.world.feature.tree.PalmTreeGrower;
@@ -15,7 +16,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SaplingBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Material;
@@ -87,7 +87,7 @@ public class BlockInit {
             }, ModCreativeModeTab.TAB);
 
     public static final RegistryObject<Block> PALM_SAPLING = registerBlock("palm_sapling",
-            () -> new SaplingBlock(new PalmTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.TAB);
+            () -> new Saplings(new PalmTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.TAB);
 
     /********** CROPS **********/
     public static final RegistryObject<Block> SALAD_CROP = BLOCKS.register("salad_crop",

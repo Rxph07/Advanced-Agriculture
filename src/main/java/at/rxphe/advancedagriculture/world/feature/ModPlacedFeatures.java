@@ -10,6 +10,7 @@ import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.placement.VegetationPlacements;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.placement.*;
 
@@ -26,7 +27,8 @@ public class ModPlacedFeatures {
         register(context, PALM_CHECKED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.PALM_KEY),
                 List.of(PlacementUtils.filteredByBlockSurvival(BlockInit.PALM_SAPLING.get())));
         register(context, PALM_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.PALM_KEY),
-                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2)));
+                VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.1f, 2),
+                        BlockInit.PALM_SAPLING.get()));
     }
 
 

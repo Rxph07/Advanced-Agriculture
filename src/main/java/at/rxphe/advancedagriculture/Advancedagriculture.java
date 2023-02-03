@@ -11,6 +11,8 @@ import com.mojang.logging.LogUtils;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -76,6 +78,21 @@ public class Advancedagriculture {
             event.accept(BlockInit.PALM_PLANKS);
             event.accept(BlockInit.STRIPPED_PALM_LOG);
             event.accept(BlockInit.STRIPPED_PALM_WOOD);
+        }
+        if (event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
+
+            /********** BLOCKS **********/
+            event.accept(BlockInit.PALM_LOG);
+            event.accept(BlockInit.PALM_WOOD);
+            event.accept(BlockInit.PALM_PLANKS);
+            event.accept(BlockInit.STRIPPED_PALM_LOG);
+            event.accept(BlockInit.STRIPPED_PALM_WOOD);
+        }
+
+        if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+            /********** BLOCKS **********/
+            event.accept(BlockInit.PALM_LEAVES);
+            event.accept(BlockInit.PALM_SAPLING);
         }
     }
 

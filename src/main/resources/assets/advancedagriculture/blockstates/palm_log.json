@@ -1,4 +1,6 @@
 {
+  "category": "building",
+  "group": "logs",
   "variants": {
     "axis=x": {
       "model": "advancedagriculture:block/palm_log_horizontal",
