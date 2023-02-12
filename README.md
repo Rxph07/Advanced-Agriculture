@@ -1,2 +1,2 @@
 # Advanced-Agriculture
-This is a test. 
+Advanced Agriculture is a food mod for Minecraft that adds a wide variety of new food types and machines to the game. With new foods like juicy fruits, hearty grains, and delicious vegetables, players have more options than ever to keep their hunger bars filled. The mod also includes machines like a handmill or a coffee machine that allow you to produce new ingredients or new food. Whether you're a seasoned Minecraft player or a newcomer looking to enhance your in-game experience, Advanced Agriculture is a must-have mod that will add a new level of depth and excitement to your game.
